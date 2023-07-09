@@ -21,7 +21,7 @@ public class TelecomApplication {
 	private static final Logger logger = LoggerFactory.getLogger(TelecomApplication.class);
 	public static void main(String[] args) throws NoSuchAlgorithmException {
 		SpringApplication.run(TelecomApplication.class, args);
-		
+		  System.out.println("Welcome to Home ** Thank you");
 		  //code to log sensitive information in logging file in hexadecimal format instead of plain text.
 		  String message = "This is a sensitive message.";
 	        
